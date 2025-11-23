@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import HomePage from "./pages/HomePage";
-import ContactPage from "pages/ContactPage";
-import BlogPage from "pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/" element={<BlogPage />} />
-        <Route path="/" element={<ContactPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </>
   )
