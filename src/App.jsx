@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
-import ProductDetailsPage from "pages/ProductDetailsPage";
-import ProductListPage from "pages/ProductListPage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
+import ProductListPage from "./pages/ProductListPage";
 
 function App() {
 
