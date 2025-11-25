@@ -11,7 +11,7 @@ const TopHeader = () => {
       <Container >
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-[50px] font-normal text-sm relative after:content-[""] after:absolute after:w-px after:h-8 after:bg-[#BFBFBF] 
-          after:left-[60%] after:top-[20%] after:-translate-y-1/2'>
+          after:left-[62%] after:top-[50%] after:-translate-y-1/2'>
             <Link to="https://maps.app.goo.gl/LG93jHEoGXTkYwzS9" target='_blank' className="flex items-center gap-2" >
               <IoLocationOutline /> <span>Notun Bazar,Badda,Dhaka</span> 
              </Link>
