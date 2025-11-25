@@ -17,7 +17,7 @@ const TopHeader = () => {
              </Link>
             <Link to="tel:01707607518" className="flex items-center gap-2"> <MdOutlineLocalPhone /> <span>01707-607518</span> </Link>
           </div>
-          <div>right</div>
+          <div></div>
         </div>
       </Container>
     </div>
