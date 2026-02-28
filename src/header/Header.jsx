@@ -1,12 +1,13 @@
 import React from 'react'
 import BottomBar from './BottomBar'
 import MiddleBar from './MiddleBar'
-import TopHeader from './TopHeader'
+import TopBar from './TopBar'
 
 const Header = () => {
   return (
     <>
-        <TopHeader/>
+        {/* <TopHeader/> */}
+        <TopBar/>
         <MiddleBar/>
         <BottomBar/>
     </>
