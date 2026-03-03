@@ -15,7 +15,7 @@ const TopBar = () => {
               <IoLocationOutline /> Notun Bazar, Badda
             </Link>
             <Link tel="+8801707607518" className='flex items-center gap-2'>
-            <MdOutlineLocalPhone /> +8801707607518
+            <MdOutlineLocalPhone /> +8801707-607518
             </Link>
           </div>
           <div>right</div>
