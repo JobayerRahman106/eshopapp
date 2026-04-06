@@ -10,7 +10,7 @@ const TopBar = () => {
     <div className='border-b border-[#BFBFBF] border-solid py-6'>
       <Container>
         <div className='flex items-center justify-between '>
-          <div className='flex items-center gap-12 font-normal text-sm relative after-content-[""] after:absolute after:top-[-15%] after:left-[55%] after:w-[1px] after:h-[32px] after:bg-[#e81313] after:-tranlate-y-1/2'>
+          <div className='flex items-center gap-12 font-normal text-sm relative after-content-[""] after:absolute after:top-[-15%] after:left-[55%] after:w-px after:h-8 after:bg-[#BFBFBF] after:-tranlate-y-1/2'>
             <Link to="https://maps.app.goo.gl/kJyxP1vAUUhX7cgq7" target="_blank" className='flex items-center gap-2'>
               <IoLocationOutline /> Notun Bazar, Badda
             </Link>

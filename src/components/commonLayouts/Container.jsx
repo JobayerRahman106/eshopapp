@@ -1,5 +1,6 @@
 import React from 'react'
 
+// @ts-ignore
 const Container = ({children}) => {
   return (
     <div className='max-w-[1520px]  mx-auto'>

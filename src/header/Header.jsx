@@ -6,7 +6,6 @@ import TopBar from './TopBar'
 const Header = () => {
   return (
     <>
-        {/* <TopHeader/> */}
         <TopBar/>
         <MiddleBar/>
         <BottomBar/>
